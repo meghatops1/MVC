@@ -12,19 +12,16 @@
 
 <div class="container">
   <h2>Vertical (basic) form</h2>
-  <form action="/action_page.php">
+  <form method="post">
     <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="email">Name:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="username">
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <label for="pwd">Contact:</label>
+      <input type="text" class="form-control" id="pwd" placeholder="Enter contact" name="contact">
     </div>
-    <div class="checkbox">
-      <label><input type="checkbox" name="remember"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <input type="submit" value="Submit" name="submit" class="btn btn-primary">
   </form>
 </div>
 
